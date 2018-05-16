@@ -1,6 +1,6 @@
 FROM java:8-jre
-MAINTAINER sourabhh
-EXPOSE 8080
+MAINTAINER sharad
+EXPOSE 8082
 COPY maven /maven/
 CMD java -Dspring.profiles.active="docker" -jar \
 /maven/restaurant-service.jar server \
