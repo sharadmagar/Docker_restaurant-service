@@ -12,9 +12,9 @@
     <packaging>jar</packaging>
     <properties>
         <start-class>com.packtpub.mmj.eureka.service.App</start-class>
-        <docker.registry.name>localhost:5000/</docker.registry.name>
+        <docker.registry.name></docker.registry.name>
         <docker.repository.name>${docker.registry.name}sourabhh/${project.artifactId}</docker.repository.name>
-        <docker.host.address>192.168.99.100</docker.host.address>
+        <docker.host.address>13.232.63.253</docker.host.address>
         <docker.port>8761</docker.port>
     </properties>
 
