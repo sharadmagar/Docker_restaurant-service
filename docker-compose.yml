@@ -1,11 +1,11 @@
  
 eureka:
-  image: 13.232.63.253:5000/sharadmagar/eureka-server:PACKT-SNAPSHOT
+  image: 13.126.203.60:5000/sharadmagar/eureka-server:PACKT-SNAPSHOT
   ports:
     - "8761:8761"
     
 restaurant-service:
-  image: 13.232.63.253:5000/sharadmagar/restaurant-service:PACKT-SNAPSHOT
+  image: 13.126.203.60:5000/sharadmagar/restaurant-service:PACKT-SNAPSHOT
   ports:
     - "8081:8081"
   links:
