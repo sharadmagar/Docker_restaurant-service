@@ -18,7 +18,7 @@
         <!-- For Docker hub leave empty; use "localhost:5000/" for a local Docker Registry -->
         <docker.registry.name></docker.registry.name>
         <docker.repository.name>${docker.registry.name}sharadmagar/${project.artifactId}</docker.repository.name>
-        <docker.host.address>13.232.63.253</docker.host.address>
+        <docker.host.address>13.126.203.60</docker.host.address>
         <docker.port>8082</docker.port>
     </properties>
 
